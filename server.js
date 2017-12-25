@@ -2,7 +2,7 @@ var express = require('express');
 var app 	= express();
 //post 데이터처리
 var bodyParser = require('body-parser');
-
+//세션관리
 var session = require('express-session');
 var fs = require("fs")
 
